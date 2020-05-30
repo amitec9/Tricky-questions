@@ -7,11 +7,11 @@ int main()
     int j=3;
     if(&i>&j)
     {
-        printf("Upwards \n");
+        printf("stack grown downwards \n");
     }
     else
     {
-        printf("Downwards");
+        printf("stack grown upwards");
     }
     
 }
